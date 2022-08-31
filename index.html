@@ -5,6 +5,9 @@
     <title>Meisner</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -17,15 +20,21 @@
       <p subtitle>North Kawartha, Ontario, Canada | 1616 sqft</p>
     </header>
     <main>
-      <p class="title">Modules</p>
-      <p class="info">6.5</p>
-      <p class="title">Structural Engineering</p>
-      <p class="info">Blackwell</p>
-      <p class="title">Photography</p>
-      <p class="info">Revelateur Studio</p>
+      <div class="info">
+        <p class="title">Modules</p>
+        <p>6.5</p>
+      </div>
+      <div class="info">
+        <p class="title">Structural Engineering</p>
+        <p>Blackwell</p>
+      </div>
+      <div class="info">
+        <p class="title">Photography</p>
+        <p>Revelateur Studio</p>
+      </div>
       <p class="description">View Floorplan</p>
       <img src="img/face.jpg" alt="photo maison de face" />
-      <p>
+      <p class="text">
         Replacing a three season cottage that has been in the family for
         generations, this MAFCOhouse is a four season home with extensive views
         from almost every side. The living space and master bedroom share the
@@ -33,7 +42,7 @@
         provides views and transparency through the cottage.
       </p>
       <img src="img/côté.jpg" alt="photo maison de côté" />
-      <p>
+      <p class="text">
         Large roof overhangs and big decks to front and rear connect with the
         landscape and encourage outdoor living. Guest bedrooms are located in a
         separate wing, connected via a corridor incorporating an office space in
@@ -45,8 +54,10 @@
     <footer>
       <h2>A architectes</h2>
       <p>Ontario, Canada</p>
-      <p class="link">Sources</p>
-      <p class="link">https://mafcohouse.com</p>
+      <div class="link">
+       <p>Sources</p>
+        <p>https://mafcohouse.com</p>
+      </div>
     </footer>
   </body>
 </html>

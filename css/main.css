@@ -2,8 +2,6 @@
 // css variables
 // ==================================== */
 
-:root {
-}
 
 /* ====================================
 // reset rules
@@ -42,3 +40,76 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+body {
+  width: 419px;
+  font-family: Roboto-Regular;
+  font-size: 16px;
+  margin: auto;
+}
+
+header {
+  margin: 20px 7px 47px;
+}
+
+nav {
+  margin: 0 0 53px 1px;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 17px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  margin-bottom: 47px;
+}
+
+.info {
+  margin-left: 9px;
+  margin-bottom: 12px;
+  font-family: Roboto-regular;
+  font-size: 12px;
+}
+
+.title {
+  font-family: Roboto-Bold;
+}
+
+.description {
+  font-family: Roboto-regular;
+  font-size: 12px;
+  margin-bottom: 16px;
+}
+
+img {
+  width: 414px;
+  height: 276px;
+  margin-bottom: 54px;
+}
+
+img:last-child {
+  margin-bottom: 28px;
+}
+
+.text {
+  line-height: 26px;
+  margin: 0 0 56px 7px;
+}
+
+main a {
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+footer {
+  padding: 30px 0 0 7px;
+  background-color: black;
+}
