@@ -42,7 +42,7 @@ video {
 // ==================================== */
 
 body {
-  width: 419px;
+  width: 414px;
   font-family: Roboto-Regular;
   font-size: 16px;
   margin: auto;
@@ -84,7 +84,9 @@ h1 {
 .description {
   font-family: Roboto-regular;
   font-size: 12px;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
+  text-decoration: underline;
+  margin-left: 9px;
 }
 
 img {
@@ -93,23 +95,49 @@ img {
   margin-bottom: 54px;
 }
 
-img:last-child {
+.last_img {
   margin-bottom: 28px;
 }
 
 .text {
   line-height: 26px;
-  margin: 0 0 56px 7px;
+  margin: 0 77px 56px 7px;
+}
+
+.center {
+  text-align: center;
 }
 
 main a {
   display: inline-block;
   font-size: 12px;
   text-align: center;
-  margin-bottom: 28px;
+  margin-bottom: 30px;
 }
 
 footer {
   padding: 30px 0 0 7px;
   background-color: black;
+  color: white;
+  height: 140px;
+  line-height: 16px;
+}
+
+footer h2 {
+  font-family: Roboto-Bold;
+  font-size: 12px;
+}
+
+footer p {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.link {
+  font-size: 10px;
+  margin-bottom: 38px;
+}
+
+.link p {
+  margin-bottom: 0;
 }
